@@ -8,5 +8,10 @@
 
   "globals": {
     "mocha": true
+  },
+
+  "rules": {
+    "no-plusplus": 0,
+    "prefer-template": 0
   }
 }
