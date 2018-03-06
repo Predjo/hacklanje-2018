@@ -23,6 +23,14 @@ function processLine(inputLine) {
 }
 
 describe('Cycle 1: Firsterisk', () => {
+  it('Return empty string', () => {
+    expect(processLine('')).to.equal('');
+  });
+
+  it('Return input string', () => {
+    expect(processLine('i')).to.equal('i');
+  });
+
   it('Replace all but first characters with *', () => {
     expect(processLine('initialization')).to.equal('in*t*al*zat*on');
   });
