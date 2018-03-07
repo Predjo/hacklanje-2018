@@ -1,7 +1,6 @@
 
 const { expect } = require('chai');
 
-
 // Count the number of occurances of each letter of the input string.
 // Count ONLY LETTERS, converted to LOWERCASE. Skip numbers or any other characters.
 

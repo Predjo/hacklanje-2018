@@ -1,7 +1,6 @@
 
 const { expect } = require('chai');
 
-
 // Replace "not ... bad" substring starting with NOT and ending with BAD) with "good" in the input.
 
 function processLine(inputLine) {

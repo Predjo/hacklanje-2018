@@ -1,7 +1,6 @@
 
 const { expect } = require('chai');
 
-
 // Replace numbers with "*", letters with "-" and other characters with "?"
 
 function processLine(inputLine) {
