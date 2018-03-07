@@ -1,6 +1,6 @@
-##Hacklanje
+## Hacklanje 2018
 
-Programming tasks for Hacklanje event written in JavaScript.
+Programming tasks for Hacklanje 2018 event written in JavaScript.
 
 #### Setup
 
