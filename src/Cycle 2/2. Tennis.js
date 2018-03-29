@@ -2,15 +2,15 @@
 const { expect } = require('chai');
 
 // Mirko and Slavko are playing their version of tennis. One set in a tennis match
-//  consists of several games. You are given results of N sets played between Mirko
-//  and Slavko, formatted as X:Y, where X represents the number of games won by Mirko
-//  and Y represents the number of games won by Slavko in one set. The player with more
-//  games won wins the set. Determine the number of sets won by Mirko and Slavko!
+// consists of several games. You are given results of N sets played between Mirko
+// and Slavko, formatted as X:Y, where X represents the number of games won by Mirko
+// and Y represents the number of games won by Slavko in one set. The player with more
+// games won wins the set. Determine the number of sets won by Mirko and Slavko!
 
 // INPUT
 // The first line contains a positive integer N (1 ≤ N ≤ 100) - the number of sets played.
-//  In the next N input lines you are given the set results, formatted as X:Y. X will always
-//  be different than Y. (1 <= X, Y <= 100)
+// In the next N input lines you are given the set results, formatted as X:Y. X will always
+// be different than Y. (1 <= X, Y <= 100)
 
 // OUTPUT
 // In the first line of output write the solution, formatted as A:B where A represents the number

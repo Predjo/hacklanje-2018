@@ -3,20 +3,21 @@ const { expect } = require('chai');
 
 // Mirko has recently started encrypting his devices with passwords.
 // Mirko's brother Slavko found the whole thing really suspicious,
-//  so he decided to install a keylogger on his laptop to find out his
-//  passwords and discover what Mirko is hiding. A keylogger is a tool which
-//  7registers each key pressed on keyboard and saves it to a log file.
+// so he decided to install a keylogger on his laptop to find out his
+// passwords and discover what Mirko is hiding. A keylogger is a tool which
+// 7registers each key pressed on keyboard and saves it to a log file.
+
 // Given the sequence of keys pressed by Mirko while entering his password,
-//  help Slavko solve the mystery and find out Mirko's password. You may assume that Mirko
-//  uses only English letters, the caps-lock key and the backspace key, and that his password
-//  consists of at least one character.
+// help Slavko solve the mystery and find out Mirko's password. You may assume that Mirko
+// uses only English letters, the caps-lock key and the backspace key, and that his password
+// consists of at least one character.
 
 // INPUT
 // The first line contains a positive integer N (1 ≤ N ≤ 200), the number of keys pressed by Mirko.
 // N lines follow, each of them containing the keys pressed by Mirko, formatted as follows:
-//  * backspace if it's the backspace key,
-//  * caps if it's the caps-lock key or
-//  * a lowercase letter of the English alphabet.
+// * backspace if it's the backspace key,
+// * caps if it's the caps-lock key or
+// * a lowercase letter of the English alphabet.
 
 // OUTPUT
 // Print Mirko's password.

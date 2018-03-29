@@ -7,10 +7,10 @@ const { expect } = require('chai');
 
 // You have to put a large block (side = 5 meters) inside, but it may not fit.
 // In that case, you have to remove some of the small blocks, but only as few as necessary
-//  to fit the big block.
+// to fit the big block.
 
 // Your input is an array of numbers, corresponding to the number of small blocks in each
-//  column of the board.
+// column of the board.
 // Return the minimal number of small blocks to remove to fit the big block.
 
 /*

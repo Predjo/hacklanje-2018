@@ -2,7 +2,7 @@
 const { expect } = require('chai');
 
 // Replace all characters equal to the first character of the input,
-//  except the first character, with an asterisk (*).
+// except the first character, with an asterisk (*).
 
 /*
   let inputLine;

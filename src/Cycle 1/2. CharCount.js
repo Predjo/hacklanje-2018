@@ -5,8 +5,8 @@ const { expect } = require('chai');
 // Count ONLY LETTERS, converted to LOWERCASE. Skip numbers or any other characters.
 
 // Return a string containing the letters converted to lowercase and sorted alphabetically,
-//  and their respective counts, separated by newlines, as described.
-//  Omit the last newline in the result.
+// and their respective counts, separated by newlines, as described.
+// Omit the last newline in the result.
 
 /*
   let inputLine;
