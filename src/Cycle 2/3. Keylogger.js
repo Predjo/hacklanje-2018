@@ -5,7 +5,7 @@ const { expect } = require('chai');
 // Mirko's brother Slavko found the whole thing really suspicious,
 // so he decided to install a keylogger on his laptop to find out his
 // passwords and discover what Mirko is hiding. A keylogger is a tool which
-// 7registers each key pressed on keyboard and saves it to a log file.
+// registers each key pressed on keyboard and saves it to a log file.
 
 // Given the sequence of keys pressed by Mirko while entering his password,
 // help Slavko solve the mystery and find out Mirko's password. You may assume that Mirko
