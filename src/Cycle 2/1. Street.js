@@ -13,6 +13,13 @@ const { expect } = require('chai');
 //  the same side of the road. Help Mirko and determine the time required to get from his
 //  house to Slavko’s house.
 
+// INPUT
+// The first line contains positive integers A and B (1 <= A, B <= 30), Mirko's and Slavko's
+// house numbers.
+
+// OUTPUT
+// Print the time required to get from Mirko's to Slavko’s house in minutes
+
 /*
   let inputLine;
   while (inputLine = readline()) {
@@ -29,15 +36,15 @@ function processLine(inputLine) {
 }
 
 describe('Cycle 2: Street', () => {
-  it('Return 1', () => {
+  it('Requires 1 step', () => {
     expect(processLine('3 4')).to.equal(1);
   });
 
-  it('Return 6', () => {
+  it('Requires 6 steps', () => {
     expect(processLine('8 20')).to.equal(6);
   });
 
-  it('Return 10', () => {
+  it('Requires 10 steps', () => {
     expect(processLine('12 29')).to.equal(10);
   });
 });
