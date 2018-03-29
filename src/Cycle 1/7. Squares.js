@@ -13,6 +13,13 @@ const { expect } = require('chai');
 //  column of the board.
 // Return the minimal number of small blocks to remove to fit the big block.
 
+/*
+  let inputLine;
+  while (inputLine = readline()) {
+      print(processLine(inputLine));
+  }
+*/
+
 function processLine(inputLine) {
   const box = 10;
   const smallBlock = 1;

@@ -3,6 +3,13 @@ const { expect } = require('chai');
 
 // Replace "not ... bad" substring starting with NOT and ending with BAD) with "good" in the input.
 
+/*
+  let inputLine;
+  while (inputLine = readline()) {
+      print(processLine(inputLine));
+  }
+*/
+
 function processLine(inputLine) {
   const notBadRegex = /not.*?bad/gi;
 

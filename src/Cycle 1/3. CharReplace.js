@@ -3,6 +3,13 @@ const { expect } = require('chai');
 
 // Replace numbers with "*", letters with "-" and other characters with "?"
 
+/*
+  let inputLine;
+  while (inputLine = readline()) {
+      print(processLine(inputLine));
+  }
+*/
+
 function processLine(inputLine) {
   const numberRegEx = /^[0-9]+$/;
   const letterRegEx = /^[a-zA-Z]+$/;

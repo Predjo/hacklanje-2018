@@ -13,6 +13,13 @@ const { expect } = require('chai');
 //  the same side of the road. Help Mirko and determine the time required to get from his
 //  house to Slavko’s house.
 
+/*
+  let inputLine;
+  while (inputLine = readline()) {
+      print(processLine(inputLine));
+  }
+*/
+
 function processLine(inputLine) {
   const mirko = Number(inputLine.split(' ')[0]);
   const slavko = Number(inputLine.split(' ')[1]);

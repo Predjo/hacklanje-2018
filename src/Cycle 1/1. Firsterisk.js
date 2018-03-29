@@ -4,21 +4,16 @@ const { expect } = require('chai');
 // Replace all characters equal to the first character of the input,
 //  except the first character, with an asterisk (*).
 
-function processLine(inputLine) {
-  if (inputLine.length > 0) {
-    const firstChar = inputLine[0];
-    let newLine = inputLine;
-
-    for (let i = 1; i < inputLine.length; i++) {
-      if (inputLine[i] === firstChar) {
-        newLine = newLine.substr(0, i) + '*' + newLine.substr(i + 1);
-      }
-    }
-
-    return newLine;
+/*
+  let inputLine;
+  while (inputLine = readline()) {
+      print(processLine(inputLine));
   }
+*/
 
-  return '';
+function processLine(inputLine) {
+  if (!inputLine) return '';
+  return inputLine[0] + inputLine.substring(1).replace(new RegExp(inputLine[0], 'gi'), '*');
 }
 
 describe('Cycle 1: Firsterisk', () => {

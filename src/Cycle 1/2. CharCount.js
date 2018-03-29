@@ -8,6 +8,13 @@ const { expect } = require('chai');
 //  and their respective counts, separated by newlines, as described.
 //  Omit the last newline in the result.
 
+/*
+  let inputLine;
+  while (inputLine = readline()) {
+      print(processLine(inputLine));
+  }
+*/
+
 function processLine(inputLine) {
   const letterRegEx = /^[a-z]+$/;
 

@@ -3,6 +3,13 @@ const { expect } = require('chai');
 
 // Replace all adjacent equal elements of the given array with one element.
 
+/*
+  let inputLine;
+  while (inputLine = readline()) {
+      print(processLine(inputLine));
+  }
+*/
+
 function processLine(inputLine) {
   return inputLine
     .split(' ')
