@@ -54,7 +54,7 @@ function processLines(lines) {
   return passwordArray.join('');
 }
 
-describe('Cycle 2: Tennis', () => {
+describe('Cycle 2: Keylogger', () => {
   it('Password is aBc', () => {
     expect(processLines(['5', 'a', 'caps', 'b', 'caps', 'c'])).to.equal('aBc');
   });
