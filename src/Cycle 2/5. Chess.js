@@ -128,7 +128,10 @@ describe('Cycle 2: Chess', () => {
   });
 
   it('Largest square unaffected is 4', () => {
-    expect(processLines(['10 12', 'bishop 1 1', 'bishop 9 1', 'rook 5 5', 'rook 1 1', 'rook 2 1', 'rook 3 1', 'rook 4 1', 'rook 6 1', 'rook 7 1', 'rook 8 1', 'bishop 3 10', 'rook 1 6'])).to.equal('4');
+    expect(processLines(['10 12', 'bishop 1 1', 'bishop 9 1', 'rook 5 5', 'rook 1 1',
+      'rook 2 1', 'rook 3 1', 'rook 4 1', 'rook 6 1', 'rook 7 1', 'rook 8 1',
+      'bishop 3 10', 'rook 1 6',
+    ])).to.equal('4');
   });
 
   it('Largest square unaffected is 6', () => {
